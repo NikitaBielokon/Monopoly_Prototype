@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class DiceRepresenter : MonoBehaviour
 {
-    public static string TEXT = "Dice: ";
+    private static string TEXT = "Dice: ";
 
     [SerializeField] private TextMeshProUGUI[] _diceValueText;
 
